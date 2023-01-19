@@ -1,6 +1,6 @@
 USE codeup_test_db;
 DROP TABLE IF EXISTS albums;
-CREATE TABLE albums VALUES(
+CREATE TABLE albums(
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     artist_name CHAR(50)NOT NULL,
     record_name CHAR(100)NOT NULL,

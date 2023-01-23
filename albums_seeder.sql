@@ -6,7 +6,8 @@ TRUNCATE albums;
 -- VALUES('Michael, Jackson', 'Thriller', 1982, 51.2, 'Pop, post-disco, funk, rock');
 
 -- INSERT INTO albums (artist_name, album_name, release_date, sales, genre)
--- VALUES('AC/DC', 'Back in Black', 1980, 30.1, 'Hard rock');
+-- VALUES('AC/DC'
+-- , 'Back in Black', 1980, 30.1, 'Hard rock');
 
 -- mysql -u codeup_test_user -p < albums_seeder.sql;
 
